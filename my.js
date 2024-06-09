@@ -79,17 +79,17 @@ app.use('/api', user_route);
 app.use('/api', auth_router);
 app.use('/api', file_routes);
 
-app.get(' http://84.32.214.42:80/login', function (req, res) {
+app.get('/login', function (req, res) {
     res.render('login');
 });
-app.get(' http://84.32.214.42:80/sign', function (req, res) {
+app.get('/sign', function (req, res) {
     res.render('sign');
 });
 
-app.get(' http://84.32.214.42:80/allusers', function (req, res) {
+app.get('/allusers', function (req, res) {
     res.render('allusers');
 });
-app.get(' http://84.32.214.42:80/index', function (req, res) {
+app.get('/index', function (req, res) {
     res.render('index');
 });
 
