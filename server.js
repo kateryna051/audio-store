@@ -22,7 +22,7 @@ mongoose.connect(process.env.MONGO_URI,{
 
 const port = process.env.PORT || 80;
 
-app.listen(80, (84.32.214.42) => {
+app.listen(80, '84.32.214.42', () => {
     console.log('Server is running on http://84.32.214.42:80');
   });
 
