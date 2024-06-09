@@ -1,0 +1,57 @@
+#userList {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e5f5fd; 
+    border: 2px solid #4481b3; 
+    border-radius: 10px;
+    margin-bottom: 10px; 
+    padding: 10px; 
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer; 
+}
+
+.user-item:hover {
+    background-color: #d1ecf4; 
+}
+
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Coming Soon', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(192, 252, 255, 0.7); 
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #6373da; 
+    font-family: 'Bungee Shade', cursive; 
+    font-size: 3em; 
+    text-align: center;
+}
+
+
+.link a {
+    color: #6373da; 
+    text-decoration: none;
+    font-family: 'Bungee Shade', cursive;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}

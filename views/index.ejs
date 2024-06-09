@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./../css/styl.css">
+</head>
+<body>
+    <% if (typeof success_msg != 'undefined') { %>
+        <div class="alert-success">
+            <%= success_msg %>
+        </div>
+    <% } %>
+    <h1>Welcome to the Home Page</h1>
+    <div class="container">
+        <div class="h2">
+            <h1>Upload Your Audio File</h1>
+        </div>
+        <form action="/api/upload" method="POST" enctype="multipart/form-data">
+            <div>
+                <label for="audioFile">Select an audio file:</label>
+                <input type="file" id="AudioFile" name="audioFile" accept="audio/*" required>
+            </div>
+            <button type="submit">Upload</button>
+        </form>
+        <div class="link">
+            <a href="http://84.32.214.42:80/allusers">Do not want to upload file? Click here.</a>
+        </div>
+    </div>
+</body>
+</html>
+
+
